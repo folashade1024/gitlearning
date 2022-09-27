@@ -26,8 +26,8 @@ li{
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 30px;
+    justify-content: space-between;
+    
 }
 .navbar{
     background: #3474e6;
@@ -98,15 +98,4 @@ li{
 }
 .box i{
     margin-right: 10px;
-}
-@media(max-width:768px){
-    .header .container{
-        flex-direction: column;
-        padding-top: 20px;
-        text-align: center;
-    }
-    .boxes{
-        display: block;
-        text-align: center;
-    }
 }

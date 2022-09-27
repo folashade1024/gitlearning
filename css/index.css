@@ -17,32 +17,65 @@ body {
     margin: 0 auto;
     padding: 0 30px;
     display: flex;
+    color: #848E9F;
+    justify-content: space-between;
 
 }
 
-.logo {
+
+
+.container .logo-icon ul {
     display: flex;
-    justify-content: flex-end;
-}
-
-.container {
-    display: flex;
-    justify-content:
-
-
-}
-
-.container ul {
-    display: flex;
-
+    justify-content: space-between;
     margin-right: 30px;
     list-style: none;
 }
 
-a {
+.container .logo-icon ul li {
+    margin-right: 10px;
+}
+
+.container .logo-icon ul li a {
+    color: #848E9F !important;
     text-decoration: none;
 }
 
-.header p {
-    font-weight: 300
+
+.contact {
+    display: flex;
+    color: #848E9F !important;
 }
+
+.container .contact div {
+    margin-right: 20px;
+
+}
+
+.container .contact div a {
+    color: #848E9F !important;
+}
+
+.container .contact div i {
+    margin-right: 5px;
+
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-item{
+    float: right;
+}
+
+.list-item ul{
+display: flex;
+flex-direction: row;
+list-style: none;
+float: right;
+}
+
+.list-item ul li a{
+    text-decoration: none;
+}
+
