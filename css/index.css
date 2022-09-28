@@ -11,11 +11,28 @@ body {
     line-height: 1.6;
 }
 
-.nav .container{
+.nav {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    padding: 30px 50px;
 }
-.nav .container .ul{
+
+.nav .context {
     display: flex;
+
+}
+
+.context .contact a,
+.mail-info a {
+    text-decoration: none;
+}
+
+.logo-list {
+    display: flex;
+    list-style: none;
+
+}
+
+.logo-list li {
+    margin-left: 15px;
 }
