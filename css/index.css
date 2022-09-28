@@ -5,44 +5,17 @@
 }
 
 body {
-    font-size: 100%;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #333333;
     background-color: #E2E2E2;
     line-height: 1.6;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 30px;
+.nav .container{
     display: flex;
-
+    flex-direction: column;
+    justify-content: space-between;
 }
-
-.logo {
+.nav .container .ul{
     display: flex;
-    justify-content: flex-end;
-}
-
-.container {
-    display: flex;
-    justify-content:
-
-
-}
-
-.container ul {
-    display: flex;
-
-    margin-right: 30px;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.header p {
-    font-weight: 300
 }

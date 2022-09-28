@@ -1,52 +1,54 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;400&family=Lato:wght@400;700&family=Poppins:wght@100;200&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
-  
-    background-image: url(../images/bg.jpeg);
+
+body {
+
+    background-color: aquamarine;
     background-size: cover;
 }
-.info{
-    width: 360px;
+
+input {
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+.info {
+    width: 560px;
     height: 630px;
-    margin: auto;
+    margin: 30px auto;
     background-color: white;
     border-radius: 3px;
 }
-h3{
+
+.info h3,
+p {
     text-align: center;
-    padding-top: 15px;
+    padding: 8px 0;
 }
-form{
-    width: 360px;
-    margin-left: 20px;
-    justify-content: center;
-    background-repeat: no-repeat;
-}
-form label{
+
+form .form-group {
     display: flex;
-    margin-top: 20px;
-    font-size: 18px;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
 }
-form input{
-    width: 100%;
-    padding: 7px;
-    border: none;
-    border:1px solid gray;
-    border-radius:6px;
-    outline: none;
+
+form .form-group label {
+    flex: 20%;
 }
-input [type="button"]{
-    width: 320px;
-    height:35px;
-    margin-top: 20px;
-    border:  none;
-    background-color: green;
-    color: white;
-    font-size: 15px;
+
+form .form-group input {
+    flex: 80%;
+}
+.btn{
+    background-color: red;
+    width: 200pxS;
 }

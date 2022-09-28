@@ -1,10 +1,16 @@
-const score =10;
-if(score === 10){
-  console.log('A')
+
+/*
+const eggPrice = 100;
+switch (eggPrice) {
+  case 20: console.log('I am 20')
+    break;
+  case 40: console.log('I am 40')
+    break;
+  case 80: console.log('I am 100')
+    break;
+  default: ('None of the above')
 }
-if(score > 5) && (sore <= 9){
-  console.log('B')
-}
-if(score > 3 && score <=5){
-  console.log('C')
-}
+*/
+const learningTrack = "software development";
+
+console.log(learningTrack.length, 'this is the lenght')
